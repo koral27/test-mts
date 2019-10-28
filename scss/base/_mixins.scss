@@ -1,0 +1,18 @@
+@mixin bg_topping {
+    background: rgba(172,153,225,1);
+    background: -moz-linear-gradient(left, rgba(172,153,225,1) 0%, rgba(189,173,235,1) 71%, rgba(215,200,254,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(172,153,225,1)), color-stop(71%, rgba(189,173,235,1)), color-stop(100%, rgba(215,200,254,1)));
+    background: -webkit-linear-gradient(left, rgba(172,153,225,1) 0%, rgba(189,173,235,1) 71%, rgba(215,200,254,1) 100%);
+    background: -o-linear-gradient(left, rgba(172,153,225,1) 0%, rgba(189,173,235,1) 71%, rgba(215,200,254,1) 100%);
+    background: -ms-linear-gradient(left, rgba(172,153,225,1) 0%, rgba(189,173,235,1) 71%, rgba(215,200,254,1) 100%);
+    background: linear-gradient(to right, rgba(172,153,225,1) 0%, rgba(189,173,235,1) 71%, rgba(215,200,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ac99e1', endColorstr='#d7c8fe', GradientType=1 );
+}
+
+// Примесь для секций на белом фоне
+@mixin white_section ($pt: 70px, $pr: 0px, $pb: 45px, $pl:0px) {
+    background-color: #fff;
+    padding: $pt $pr $pb $pl;
+    border: 1px solid #ededed;
+    border-radius: 3px;
+}

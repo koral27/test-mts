@@ -1,0 +1,319 @@
+@media screen and (max-width: 1100px){
+    .offer__item-wrap {
+        height: 300px;
+    }
+    .offer__item {
+        padding: 12% 0 12% 11%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    body {
+        font-size: 15px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .offer__list {
+        flex-direction: column;
+    }
+    .offer__item-wrap {
+        max-width: 90%;
+        margin: 0 0 20px;
+        &:nth-child(2) {
+            margin: 0 0 20px;
+        }
+    }
+    .offer__item {
+        max-width: 100%;
+        padding: 50px 0px 50px 40px;
+        background-position: center right -235px;
+
+        &.offer__item_dep {
+            background-position: center right;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .connecting__list {
+        padding: 0 20px 0 55px;
+    }
+    .connecting__item {
+        padding: 45px 25px 30px 60px;
+    }
+    .connecting__item span {
+        left: 35px;
+        top: 41px;
+        font-size: 19px;
+    }
+    .connecting__slider {
+        padding: 0 2%;
+    }
+    .benefits__item_left span {
+        font-size: 60px;
+    }
+    .benefits__item_right {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .connecting__list {
+        padding: 0 20px 0 30px;
+    }
+    .connecting__item {
+        padding: 40px 20px 25px 55px;
+        
+        span {
+            left: 30px;
+            top: 35px;
+            font-size: 19px;
+        }
+    }
+    .benefits__item {
+        height: initial;
+        max-height: 250px;
+    }
+    .benefits__item_left {
+        margin-right: 15px;
+        padding: 70px 20px 20px;
+
+        p { font-size: 21px; }
+        .flex-wrap { font-size: 17px; }
+        span { font-size: 52px; }
+    }
+    .benefits__item_right {
+        padding: 25px;
+    }
+    .device__content {
+        flex-wrap: wrap;
+    }
+    .device__left {
+        padding-top: 0;
+        width: 100%;
+    }
+    .device__right {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body {
+        font-size: 13px;
+    }
+    section {
+        margin-bottom: 60px;
+    }
+    h1 {
+        font-size: 27px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .hero__content {
+        padding: 40px 0;
+    }
+    .connecting__list {
+        padding: 0 10px;
+    }
+    .connecting__item {
+        padding: 35px 15px 20px 45px;
+        
+        span {
+            left: 25px;
+            top: 30px;
+            font-size: 17px;
+        }
+    }
+    .connecting__slider {
+        padding: 0 10px;
+    }
+    .benefits__item {
+        max-height: 180px;
+    }
+    .benefits__item_left {
+        padding: 50px 20px 20px;
+        p { font-size: 19px; }
+        span { font-size: 43px; }
+        .flex-wrap {
+            font-size: 15px;
+            img {
+                width: 85px;
+            }
+        } 
+    }
+    .benefits__item_right {
+        font-size: 20px;
+    }
+    .benefits__icons .mastercard {
+        width: 30px;
+    }
+    .benefits__icons .android {
+        width: 20px;
+    }
+    .faq .section-title {margin-bottom: 35px;}
+    .faq__item {
+        padding: 25px 10px 25px 20px;
+    }
+    .faq__answer p {
+        margin-bottom: 15px;
+    }
+    .offer__title {
+        font-size: 18px;
+    }
+    .offer__item-wrap {
+        height: 270px;
+    }
+    .offer__cashback {
+
+        span {
+            font-size: 53px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero__left {
+        align-items: center;
+    }
+    .hero__left, 
+    .hero__text {
+        text-align: center;
+    }
+    .hero__right {
+        display: none;
+    }
+    .steps__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .steps__list .steps__item {
+        margin-bottom: 30px;
+        max-width: 80%;
+    }
+    .steps__list .steps__image {
+        padding: 20px;
+        height: 80px;
+    }
+    .steps__comment {
+        width: 80%;
+    }
+    .connecting__content {
+        .flex-wrap {
+            flex-direction: column;
+        }
+        .connecting__list,
+        .connecting__slider {
+            width: 100%;
+        }
+    }
+    .connecting__list {
+        margin-bottom: 20px;
+    }
+    .benefits__list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits__item {
+        margin: 0 0 30px;
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    body {
+        font-size: 12px;
+    }
+    section {
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    .hero__content {
+        padding: 30px 0;
+    }
+    .steps__content {
+        padding-top: 45px;
+    }
+    .steps .section-title {
+        margin-bottom: 30px;
+    }
+    .faq__question {
+        padding-right: 30px;
+        &::before {
+            right: 10px;
+        }
+    }
+    .offer {
+        .section-title {
+            margin-bottom: 50px;
+        }
+    }
+    .offer__item-wrap {
+        height: 200px;
+        max-width: 100%;
+    }
+    .offer__item {
+        padding: 30px 0px 30px 30px;    
+        background-position: center right -135px;
+        background-size: 100%;
+        &.offer__item_dep {
+            background-size: 50%;
+        }
+    }
+    
+    
+    .offer__title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    h1 {
+        font-size: 24px;
+    }
+    .benefits__item {
+        width: 90%;
+        height: 140px;
+    }
+    .benefits__item_left {
+        p { font-size: 16px; }
+        span { font-size: 30px; }
+        .flex-wrap {
+            font-size: 13px;
+            img {
+                width: 65px;
+            }
+        } 
+    }
+    .benefits__item_right {
+        font-size: 18px;
+    }
+}

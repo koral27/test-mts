@@ -1,0 +1,58 @@
+.connecting .section-title {
+    margin-bottom: 70px;
+}
+
+.connecting__content {
+    @include white_section(65px, 0px, 110px, 0px);
+
+    .connecting__list,
+    .connecting__slider {
+        width: 50%;
+    }
+}
+
+.connecting__list {
+    padding: 0 35px 0 65px;
+}
+
+.connecting__item {
+    padding: 50px 30px 35px 65px;
+    position: relative;
+    cursor: pointer;
+
+    span {
+        position: absolute;
+        left: 40px;
+        top: 45px;
+        font-family: 'Futura New', sans-serif;
+        font-size: 21px;
+    }
+
+    &.active {
+        background-color: #f2f2f2;
+        border-radius: 5px;
+    }
+
+    &:hover {
+        background-color: rgba(242, 242, 242, 0.42);
+    }
+}
+
+.connecting__slider {
+    display: flex;
+    align-items: center;
+    padding: 0 10% 0 5%;
+
+    .connecting__slide {
+        outline: none;
+    }
+    
+    .connecting__slide img {
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+
+    .slick-arrow {
+        cursor: pointer;
+    }
+}

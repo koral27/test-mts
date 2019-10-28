@@ -1,0 +1,37 @@
+.hero{
+    background-color: #ebebeb;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-right: 10px;
+    min-width: 50%;
+
+    .hero__title {
+        margin-bottom: 40px;
+        white-space: nowrap;
+    }
+    .hero__text {
+        line-height: 1.5em;
+        margin-bottom: 30px;
+        max-width: 500px;
+    }
+}
+
+.hero__right {
+    flex-grow: 1;
+
+    img {
+        margin: 0 auto;
+    }
+}

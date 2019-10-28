@@ -1,0 +1,47 @@
+.steps {
+    margin-bottom: 80px;
+    .section-title {
+        margin-bottom: 50px;
+    }
+}
+
+.steps__content {
+    @include white_section(70px, 0px, 45px, 0px);
+}
+
+.steps__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    .steps__item {
+        max-width: 250px;
+        margin: 0 3%;
+    }
+
+    .steps__image {
+        padding: 25px;
+        height: 110px;
+        img {
+            margin: 0 auto;
+        }
+    }
+    .steps__desc {
+        text-align: center;
+        line-height: 1.5em;
+        color: #202020;
+
+        span {
+            color: $red;
+            font-family: 'Futura New', sans-serif;
+        }
+    }   
+}
+
+.steps__comment {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.5em;
+    color: #868686;
+}
