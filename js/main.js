@@ -2,8 +2,8 @@ $( document ).ready(function() {
 
     // слайдер
     $('.connecting__slider').slick({
-        prevArrow: '<img src="../img/arrow-left.png" class="arrow-left" alt="left">',
-        nextArrow: '<img src="../img/arrow-right.png" class="arrow-right" alt="right">'
+        prevArrow: '<img src="img/arrow-left.png" class="arrow-left" alt="left">',
+        nextArrow: '<img src="img/arrow-right.png" class="arrow-right" alt="right">'
     });
 
     // аккордеон
