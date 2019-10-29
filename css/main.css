@@ -198,7 +198,9 @@ h3 {
     margin: 0 auto;
     padding: 0 5px; }
   .connecting__slider .slick-arrow {
-    cursor: pointer; }
+    cursor: pointer;
+    width: 100%;
+    max-width: 22px; }
 
 .benefits .section-title {
   margin-bottom: 55px; }
